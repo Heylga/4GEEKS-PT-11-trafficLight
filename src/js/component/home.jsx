@@ -9,7 +9,7 @@ const Home = () => {
 		<div>
 			<div className="stick"></div>
 			<div className="traffic-light">
-				<div className="redlight">4</div>
+				<div className="redlight glow">4</div>
 				<div className="yellowlight">5</div>
 				<div className="greenlight">g</div>
 			</div>
