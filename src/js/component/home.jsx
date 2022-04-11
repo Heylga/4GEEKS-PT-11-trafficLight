@@ -15,19 +15,20 @@ const Home = () => {
 				<div
 					onClick={() => setSelectedColor("red")}
 					className={
-						"light red" + (selectedColor === "red" ? "glow" : "")
+						"light red" +
+						(selectedColor === "red" ? "light red glow" : "")
 					}></div>
 				<div
 					onClick={() => setSelectedColor("yellow")}
 					className={
 						"light yellow" +
-						(selectedColor === "yellow" ? "glow" : "")
+						(selectedColor === "yellow" ? " yellow glow" : "")
 					}></div>
 				<div
 					onClick={() => setSelectedColor("green")}
 					className={
 						"light green" +
-						(selectedColor === "green" ? "glow" : "")
+						(selectedColor === "green" ? "light green glow" : "")
 					}></div>
 			</div>
 		</div>
